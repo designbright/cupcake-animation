@@ -1,0 +1,87 @@
+.svg-wrapper{
+ /* height: 500px;
+ width: 500px; */
+ /* position: relative;
+ overflow: hidden; */
+}
+
+@keyframes spin {
+ 10% {
+     transform:translate(250px, -500px);
+ }
+ /* 10% {
+  transform:translate(150px, 200px);
+ } */
+
+}
+
+.sprinkle1 {
+ animation-name: spin;
+ animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.sprinkle2 {
+ animation-name: spin;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+}
+
+.sprinkle3 {
+ animation-name: spin;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+}
+
+.sprinkle4 {
+ animation-name: spin;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+}
+
+.sprinkle5 {
+ animation-name: spin;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+}
+
+.sprinkle6 {
+ animation-name: spin;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+}
+
+.sprinkle7 {
+ animation-name: spin;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+}
+
+.sprinkle8 {
+ animation-name: spin;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+}
+
+.sprinkle9 {
+ animation-name: spin;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes cherry-drop {
+ 10% {
+     transform:translate(250px, -800px);
+ }
+ /* 10% {
+  transform:translate(150px, 200px);
+ } */
+
+}
+
+.cherry {
+ animation-name: cherry-drop;
+ animation-duration: 2s;
+ animation-iteration-count: 1;
+}
+
