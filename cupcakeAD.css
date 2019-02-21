@@ -1,0 +1,157 @@
+/* @keyframes move-base-shadow {
+ from {top: 0px;}
+ to {top: 200px;}
+}
+
+.shadow {
+ animation: move-base-shadow 3s 1;
+} */
+
+@keyframes falling-sprinkles {
+ 10% {
+  transform: translate(0px, -700px);
+ }
+}
+
+#royal-blue-sprinkle-1, #royal-blue-sprinkle-2, #yellow-sprinkle-1, #yellow-sprinkle-2, #purple-sprinkle, #orange-sprinkle-1 {
+  position: relative;
+  animation-name: falling-sprinkles;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cherry-drop {
+ 0% {
+  transform: translate(100px, -700px);
+ }
+ 65% {
+  transform: translate(0px, -700px);
+ }
+}
+
+#cherry{
+position: relative;
+animation-name: cherry-drop;
+animation-duration: 2s;
+animation-iteration-count: 1;
+}
+
+/* @keyframes royal-blue-sprinkle {
+  10% {
+   transform: translate(0px, -700px);
+  }
+}
+
+#royal-blue-sprinkle-1 {
+ position: relative;
+ animation-name: royal-blue-sprinkle;
+ animation-duration: 2s;
+ animation-iteration-count: 1;
+}
+
+#royal-blue-sprinkle-2 {
+ position: relative;
+ animation-name: royal-blue-sprinkle;
+ animation-duration: 2s;
+ animation-iteration-count: 1;
+}
+
+@keyframes yellow-sprinkle {
+ 10% {
+  transform: translate(50px, -700px);
+ }
+}
+
+#yellow-sprinkle-1 {
+position: relative;
+animation-name: yellow-sprinkle;
+animation-duration: 2s;
+animation-iteration-count: 1;
+}
+
+#yellow-sprinkle-2 {
+ position: relative;
+ animation-name: yellow-sprinkle;
+ animation-duration: 2s;
+ animation-iteration-count: 1;
+ }
+
+ @keyframes purple-sprinkle {
+  10% {
+   transform: translate(150px, -700px);
+  }
+ }
+ 
+#purple-sprinkle {
+ position: relative;
+ animation-name: purple-sprinkle;
+ animation-duration: 2s;
+ animation-iteration-count: 1;
+ }
+
+
+ @keyframes light-blue-sprinkle {
+  0% {
+   transform: translate(0px, -700px);
+  }
+  100% {
+   transform: translate(0px, 0px);
+  }
+ }
+ 
+ #light-blue-sprinkle-1 {
+ position: relative;
+ animation-name: light-blue-sprinkle;
+ animation-duration: 2s;
+ animation-iteration-count: 1;
+ }
+
+ @keyframes light-blue-sprinkle-2 {
+  0% {
+   transform: translate(0px, -700px);
+  }
+  100% {
+   transform: translate(0px, -700px);
+  }
+ }
+ 
+ #light-blue-sprinkle-2 {
+  position: relative;
+  animation-name: light-blue-sprinkle-2;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  }
+
+  @keyframes orange-sprinkle {
+   10% {
+    transform: translate(0px, -700px);
+   }
+  }
+  
+  #orange-sprinkle-1 {
+  position: relative;
+  animation-name: orange-sprinkle;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  }
+
+  @keyframes orange-sprinkle-2 {
+   0% {
+    transform: translate(0px, -700px);
+   }
+   100% {
+    transform: translate(-150px, 200px);
+   }
+  }
+  
+  #orange-sprinkle-2 {
+  position: relative;
+  animation-name: orange-sprinkle-2;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  } */
+
+
+
