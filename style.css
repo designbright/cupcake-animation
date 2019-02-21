@@ -15,58 +15,10 @@
 
 }
 
-.sprinkle1 {
+.sprinkle1, .sprinkle2, .sprinkle3, .sprinkle4, .sprinkle5, .sprinkle6, .sprinkle7, .sprinkle8, .sprinkle9  {
  animation-name: spin;
- animation-duration: 4s;
-  animation-iteration-count: infinite;
-}
-
-.sprinkle2 {
- animation-name: spin;
- animation-duration: 4s;
- animation-iteration-count: infinite;
-}
-
-.sprinkle3 {
- animation-name: spin;
- animation-duration: 4s;
- animation-iteration-count: infinite;
-}
-
-.sprinkle4 {
- animation-name: spin;
- animation-duration: 4s;
- animation-iteration-count: infinite;
-}
-
-.sprinkle5 {
- animation-name: spin;
- animation-duration: 4s;
- animation-iteration-count: infinite;
-}
-
-.sprinkle6 {
- animation-name: spin;
- animation-duration: 4s;
- animation-iteration-count: infinite;
-}
-
-.sprinkle7 {
- animation-name: spin;
- animation-duration: 4s;
- animation-iteration-count: infinite;
-}
-
-.sprinkle8 {
- animation-name: spin;
- animation-duration: 4s;
- animation-iteration-count: infinite;
-}
-
-.sprinkle9 {
- animation-name: spin;
- animation-duration: 4s;
- animation-iteration-count: infinite;
+ animation-duration: 2s;
+  animation-iteration-count: 1;
 }
 
 @keyframes cherry-drop {
